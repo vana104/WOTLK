@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WOTLK</title><!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+	<!--meta date-->
+	<meta charset="utf-8">
+	<meta content="Warcraft" name="Warcraft">
+	<meta name="warcraft, lich king, wotlk">
+	<meta content="HTML,CSS,XML,JavaScript">
+	<meta content="Blizzard" name="Blizzard">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"><!--css link-->
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		<div class="nav">
+			<div class="runes">
+				<div class="navtooltip">
+					<input class="rune1" src="./img/rune.png" style="width: 50px;height: 60px" type="image" value="submit"> <span id="aboutbutton" class="tooltiptextnav">ABOUT</span>
+				</div>
+				<div class="navtooltip">
+					<input class="rune1" src="./img/rune2.png" style="width: 50px;height: 50px" type="image" value="submit"> <span id="mapbutton" class="tooltiptextnav">MAP</span>
+				</div>
+				<div class="navtooltip">
+					<input class="rune1" src="./img/rune3.png" style="width: 50px;height: 50px" type="image" value="submit"><span id="newclassbutton" class="tooltiptextnav">NEW CLASS</span>
+				</div>
+				<div class="navtooltip">
+					<input class="rune1" src="./img/rune4.png" style="width: 50px;height: 50px" type="image" value="submit"><span id="villiansbutton" class="tooltiptextnav">VILLIANS</span>
+				</div>
+				<div class="navtooltip">
+					<input class="rune1" src="./img/rune5.png" style="width: 80px;height: 50px" type="image" value="submit"><span id="trailerbutton" class="tooltiptextnav">TRAILER</span>
+				</div>
+			</div>
+		</div>
+		<div class="banner"><img src="./img/logo.png" class="logoo"></div>
+		<div class="divider"></div><!--meh-->
+		<div class="introduction" id="about">
+			<h1>Azeroth needs you once more hero</h1>
+			<p>You've turned the tide against the demonic evils of Outland. Now the Lich King Arthas has set in motion events that will lead to the extinction of all life on Azeroth. With the undead legions of the Scourge threatening to sweep across the land, you must strike at the heart of the frozen abyss and end the Lich King's reign of terror for all time.<br>
+			<br>
+			Your fight against the undead begins now...</p>
+			<div class="trailers" id="trailers">
+				<img class="play" id="videoplay" src="./img/PLAYBUTTON.png"> <video id="video" poster="./img/preview.gif"><source src="./img/trailer.mp4" type="video/mp4"></video>
+			</div>
+		</div>
+		<div class="divider"></div><!--map-->
+		<div class="map" id="map">
+			<div class="locations">
+				<!-- Generator: Adobe Illustrator 21.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+				<svg id="Layer_1" style="enable-background:new 0 0 1002 668;" version="1.1" viewbox="0 0 1002 668" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
+				<style>
+				.st0{opacity:0.4;} .st0:hover {opacity: 0.2;fill:#22B573;} .st1{opacity:0.4;} .st1:hover{opacity: 0.2;fill:#FF7BAC;} .st2{opacity:0.4;} .st2:hover{opacity:0.2;fill:#FF00FF;} .st3{opacity:0.4;} .st3:hover{opacity:0.2;fill:#BDCCD4;} .st4{opacity:0.4;} .st4:hover{opacity:0.2;fill:#8CC63F;} .st5{opacity:0.4;} .st5:hover{opacity:0.2;fill:#FCEE21;} .st6{opacity:0.4;} .st6:hover{opacity:0.2;fill:#0071BC;} .st8{opacity:0.4;;} .st8:hover{opacity:0.2;fill:#2E3192;} .st9{opacity: 0.4;} .st9:hover{opacity:0.4;fill:#FCEE21;} .st10{opacity:0.4;} .st10:hover{opacity:0.2;fill:#29ABE2;} 
+				</style>
+				<path class="st0" d="M172.2,285.7c-1.8-2-4.7-3.7-4.6-5.4c0.1-5.5-1.3-11.9,5.4-15.2c6-3,8-8.3,8.5-14.7c0.2-3,0.9-6.2,2.3-8.8 c0.9-1.6,3.4-3.1,5.3-3.2c9.7-0.6,15.9-5.5,19.6-14.3c0.7-1.7,3.1-2.7,4.7-4.1c2.5-2.2,5-4.5,7.6-6.5c1.8-1.4,3.9-2.7,6-3.6 c2.1-1,4.3-1.5,6.5-2.2c0.9-0.3,2-1.1,2.7-0.9c4.7,1.3,9.4,2.8,14.1,4.1c2.1,0.6,4.1,1.2,6.2,1.5c8,1.1,16,2.2,24,3.2 c7.1,0.9,9.6,6.9,12.4,11.9c3.6,6.5,8.5,10.9,14.7,14.9c7.7,4.9,16.1,9.5,21,17.8c0.7,1.1,2,2.6,1.7,3.5c-2.5,8.1,4.2,9.5,8.8,11.8 c3.6,1.8,4.2,3.4,2.7,6.9c-2.8,6.5-7.8,10.3-14.1,13.3c-3.7,1.8-7.4,4.5-9.9,7.8c-5.7,7.3-9.5,16.4-16.2,22.3 c-4.9,4.3-8.2,12.1-16.9,11.9c-2.5-0.1-4.9,3.3-7.7,4.1c-10.4,2.8-21,5.5-31.6,7.6c-2.3,0.5-5.8-1-7.5-2.7 c-5.6-5.5-12.6-6.1-19.7-7.1c-4.8-0.6-9.6-2-14.4-2.7c-2.7-0.4-5.7-1-8.2-0.3c-4.6,1.3-7.5-0.4-10.6-3.3c-1.9-1.7-4.7-3.2-7.2-3.5 c-6.1-0.7-9.8-3.7-10.3-9.9c-0.4-4.9,0.8-10-3.5-14.1c-0.5-0.5,0.3-3.3,1.2-4.2c3.3-3.2,4.8-6.7,2.8-11.2 C165.7,285.7,170.6,286.9,172.2,285.7z"></path>
+				<path class="st1" d="M615.4,331.6c-3.3,1.8-6.6,3.7-9.9,5.5c-0.6,0.3-0.9,1.1-1.5,1.3c-1.9,0.7-3.9,1.3-5.8,1.9 c-0.3-1.9-0.9-3.8-0.8-5.7c0.1-1.8,1-3.5,1.4-5.3c0.6-2.9,1.6-5.7-3-6.9c-3.2-0.8-2-3.3-0.3-5c5-4.9,7-10.5,3.8-17.1 c-0.7-1.4-2.5-3.3-3.8-3.3c-3.8,0-3.9-2-4.4-5c-2.3-12.3,5.3-20.3,11.7-28.9c0.2-0.3,0.4-0.5,0.7-0.7c7-3.6,14-7.3,21.1-10.8 c3.5-1.8,7.2-3.3,10.8-4.8c11.2-4.6,22.5-9.1,33.8-13.5c1.6-0.6,3.6-0.3,5.4-0.4c1.6-0.2,3.9,0.1,4.8-0.8c7.2-7.4,16.5-4.3,25-5.2 c2-0.2,4-0.3,5.9-0.9c4.7-1.5,9.2-1.6,13.3,1.5c0.1,0.1,0.3,0.2,0.4,0.2c4.6,2.3,22.6-0.7,25.2-5c2.2-3.5,2.7-8.1,4.1-12.1 c0.8-2.3,1.4-4.9,2.7-6.9c4.8-7.3,9.5-14.8,15.1-21.5c3.8-4.5,8.7-8.2,13.7-11.5c1.5-1,5.1-0.6,6.8,0.6c4,2.8,7.6,6.4,11.2,9.9 c5.8,5.7,11.5,11.6,17.3,17.3c3.2,3.2,3.6,6.6,1.1,10.3c-1.6,2.3-3.6,4.4-5.3,6.6c-3.9,4.9-7.5,10-11.7,14.6 c-3.4,3.8-7.4,7.1-11.4,10.4c-4.3,3.6-5.7,8-5.7,13.6c-0.2,10.6-1.1,21.2-2,31.7c-0.6,7.6-9.2,18.6-18.3,20 c-4.1,0.6-8.1,4.8-11.2,8.2c-3,3.2-5.7,5.4-10.2,4.7c-6.1-0.9-10.6,1.7-15.1,5.8c-6.3,5.9-13.4,10.8-20.1,16.3 c-1.8,1.4-3.8,3-4.7,4.9c-1.8,4.1-4.8,5.2-8.8,4.9c-5.7-0.5-9.2,1.8-11.6,7.3c-2.8,6.3-8.9,7.9-15.2,8.7c-4.3,0.5-8.5,1.3-12.8,1.6 c-2.6,0.2-5.3,0.1-7.9-0.2c-3.4-0.3-6.9-1-10.3-1.5c-1.5-0.2-3.2-0.2-4.3-0.9c-4.2-2.9-8.3-2.7-13.2-1.9c-3.1,0.5-8.3-1.9-9.9-4.6 c-1.9-3.3-0.7-8.2,3-11.1c1.7-1.3,4.1-1.9,5.4-3.4c2.1-2.3,5-5.2,4.9-7.7c-0.3-4.3-4.7-4.3-8.3-4.2 C615.8,332.4,615.6,332,615.4,331.6z"></path>
+				<path class="st2" d="M589.1,282.6c0,3.8-0.1,6.1,0,8.4c0.1,1.8,0.8,3.1,2.7,3.7c5.3,1.7,8,6.9,6.8,12.5c-1.2,5.7-4.9,9.3-10.9,10.3 c-1.6,0.3-2.2,1.2-2.6,2.5c-1.4,4.7-5.1,5.3-9.2,4.7c-2.3-0.3-4.7-1.1-6.6-2c-7.6-3.6-15.9-5-23.6-8.1c-3.7-1.5-7.4-2.6-11.1-1.9 c-5.8,1.1-9.9-1-13.7-5c-6.7-6.9-20.1-7.9-27.9-2.4c-2.1,1.5-4.5,2.1-6.6,1.2c-4.5-2.1-9.6-2.3-13.7-5.2c-3.9-2.7-8-4.8-12.7-5.7 c-2.5-0.5-4.4-1.7-5.3-4.6c-5.1-16.1-3.8-31.8,2.2-47.3c1.3-3.5,3.7-5.9,7.2-7.1c7.7-2.5,15.2-3.1,23.3-0.8c5.3,1.5,11.1,3.3,17,2.3 c2.9-0.5,4.5,0.8,4.5,3.8c0,3.9,2,5.7,5.7,6.1c3,0.3,6,1.2,7.8,3.8c4.8,7.1,11.9,9.6,20,9.9c2.4,0.1,3.8,1.8,5.4,3.3 c3.7,3.7,7.8,4.5,12.8,2.6c5.1-1.9,10.9-0.8,15.9-3.5c1.2-0.7,2.5,0.4,3.5,1.3C585.7,270.7,591.1,275.6,589.1,282.6z"></path>
+				<path class="st3" d="M597.5,446c-3.1,0.2-6.5-0.1-6.7-5.1c0-0.5-0.5-1.3-0.6-1.3c-4.6,1.1-5.7-4-9.1-5.2c-3.9-1.3-11.7,2.2-14.8,7.2 c-3.2,5.2-6.6,9.6-13.5,9.3c-1.8-0.1-3,1-3.9,2.6c-2.2,3.9-5.5,4.6-9.4,2.9c-2.9-1.2-5.9-2.4-8.6-4c-2.4-1.4-4.6-2.6-7.4-2.6 c-1.5,0-3.4-0.1-3.9-1.7c-1.3-4.5-3.9-4-7.3-2.5c-2,0.9-4.1,1.2-6.2,1.8c-6.1,1.8-10.6,0.2-14.1-5.1c-1.1-1.6-2.5-3.3-4.4-2.8 c-4.7,1.3-9.7,1.8-14.1,4.3c-1.1,0.6-2.5,2-3.4,1.8c-5.3-1.6-10.3,1.2-15.1,0.9c-13.3-0.8-26.6-0.2-39.9-0.5 c-9.8-0.2-12.2-1.7-11.8-11.6c0.3-6.4-2.3-6.9-7.1-6.5c-3.1,0.3-5.8-0.4-8.4-2.4c-2.7-2.1-6.5-1-9.9-2.5c-5.4-2.5-9.1-7.2-14.2-9.8 c-0.7-0.4-1.2-1.2-1.8-1.7c-2.7-2.1-6.1-3-6.9-7.2c-1.6-8.7-4-17.2,0.1-25.8c1-2,2.3-3.8,4.1-4.9c2.6-1.6,4.4-3.3,5.8-6.3 c1.6-3.4,6.2-4,9.2-4.2c6.3-0.5,11.5-3.8,17.2-5.6c6-1.9,10.7-0.2,15.6,2.1c0.9,0.4,1.7,1.4,2.7,0.7c1.3-0.9,0.5-2,0.1-3.1 c-1.5-3.9-1-7.3,1.9-10.6c3.7-4.4,3.1-10.4,5.3-15.4c2.6-5.9,0.1-11.7,0-17.5c-0.2-6.6,3.9-10.7,8.5-13.8c5.4-3.6,12.1-4.4,18.2-6.3 c4.5-1.4,7.7,1.5,10.1,4.8c3.1,4.2,6.9,5.9,12.3,5.9c4.3,0,8.7,1.9,13,3c4.7,1.2,9,1.4,12.9-2.5c5-4.9,14.4-5.1,20.6-2.1 c5.3,2.5,10.2,5.4,14.8,8.9c1.1,0.8,2.4,1.3,3.8,0.9c7.4-2.5,13.5,0.6,19.5,4.5c1.7,1.1,3.5,1.3,5.2,0.4c2.7-1.3,5.5-1.2,8.3-1.3 c3.4-0.2,5.8,0.8,7.8,4c3.6,5.7,7.5,5.9,12.1,1c1.4-1.4,2.4-3.9,4.7-2c2.8,2.3,8,1.6,8.2,6.8c0.1,2.2-0.6,4.2-1.2,6.3 c-1.2,4.1-1.4,8,1.5,11.8c2.5,3.3,2.8,7.4,2.4,11.4c-0.3,2.8-0.3,5.6-0.7,8.4c-0.6,5.2,1,9.3,5,12.8c3.5,3.1,4.6,7.5,5,12.1 c1.4,16.8-2.6,33.4-2.2,50.2C606.9,444.6,604.4,446.1,597.5,446z"></path>
+				<path class="st4" d="M813,304.8c0.4,5.3-0.6,10.9,1.5,16.5c1.4,3.5-1.2,6.9-4.1,8.9c-6.2,4.3-5.2,11.5-7.1,17.4 c-0.7,2.3,1.6,3.7,4,4.2c8.9,1.6,13.8,7.1,15.5,15.8c1.3,6.6-3.9,14.9-10.5,16.1c-2.9,0.6-5.5,1.6-7.8,3.2c-2.7,1.8-5.5,2.9-8.8,3.1 c-4.5,0.3-7,3.4-8.5,7.4c-0.6,1.5-1.1,3.1-1.6,4.7c-1.4,4.1-4.1,4.6-7.4,2.5c-2.6-1.7-5.2-2.8-8.3-2.8c-2.3,0-4.8-1.1-5.3-3.1 c-1.5-6.4-7.9-6.9-11.9-10.2c-5.2-4.3-10.5-1.5-15.2,1.3c-3.6,2.1-7,2.7-10.9,1.3c-4.6-1.7-7.5-0.4-9.4,4.3 c-2.4,6-6.2,10.8-11.3,14.8c-3.8,3-5.9,7.1-7,12.2c-3.2,14.9-11.4,26.4-25.4,33c-2.9,1.3-5.8,0.7-8.3-1.6c-1.9-1.8-4.1-3.3-6.8-4 c-2-0.6-3.4-0.6-4.7,1.3c-2.6,3.9-6,2.5-8.3,0.1c-2.2-2.4-4.5-3.2-7.4-3.1c-3.5,0.1-6.8-0.1-9.5-3.2c-2.1-2.5-5.3-1-8.1-0.9 c-5.9,0.1-6.6-0.9-4-5.9c1.4-2.6,1.9-5.1-0.9-7.1c-2.1-1.5-2.8-3.6-2.7-6.1c0.2-3.5-0.6-6.9-1.1-10.4c-0.8-5.8,1.3-11.4,1.6-17.2 c0.4-6.8-0.4-13.1-3-19.3c-1.7-4.1-2.7-8.5,0.9-11.6c3.9-3.4,8.8-5.7,14.2-3.7c2.6,0.9,4.6,0.9,7.1,0c1.9-0.7,4.3-0.7,6.4-0.7 c7.6,0,15.1,1.8,23,0.2c8.5-1.7,17.5-0.7,24.7-7.1c1.8-1.6,4.7-1.7,6.5,0c3.2,3,5.8,1.1,8.5-0.4c2.7-1.6,1.4-3.9,0.8-6.2 c-1.6-5.8-0.2-7.8,4.7-11.4c6.2-4.5,12.1-9.4,17.6-14.6c5.7-5.3,11.4-9.7,19.8-8.5c3.1,0.4,5-1.3,7.1-3.6c3.8-4.4,7.6-8.5,13.7-11 c7.3-3,14.7-7,16.9-16.6c1.6-7,12.2-8.7,17.5-3.6c2.7,2.7,5.4,5.4,8.9,7.1c2.9,1.5,4.3,4.1,4.3,7.4C813,297.3,813,300.9,813,304.8z"></path>
+				<path class="st5" d="M690,534L690,534c-0.3-1.5-1.3-2.7-2.3-3.8c-4.5-5-5-8.7-2-14.9c2.7-5.6,2.7-6.4-3.2-7.3c-9.5-1.5-12-9-13.8-16 c-1.5-5.8-3.5-11.8-2.8-18.1c0.6-5.2,3.3-9.9,2.4-15.4c-0.3-1.6,1.3-3.1,2.8-3.9c9.2-4.5,13.6-13.5,19.5-20.9 c2.4-3,3.1-7.9,3.2-12.3c0.1-2.6,0.8-4.8,2.7-6.7c6.3-6.3,12.8-12.3,16.2-21.1c1.3-3.5,6.6-5.3,10-3.5c6,3.2,10.7-0.5,15.8-1.6 c5.2-1.1,10.1-1.5,15,1.2c2.3,1.3,3.8,2.9,4.6,5.5c2.1,7.4,3.4,8.3,11.2,8.4c1.3,0,2.8-0.4,4,0.1c6.2,2.7,7.5-1.6,8.5-5.9 s3.8-5.1,7.7-6.4c7.3-2.4,15.5-3.2,21.4-9.1c2.5-2.5,5.1-2.5,8.6-1.9c5.9,1,10.3,4.3,14.7,7.5c3.2,2.3,4,6.7,3.6,9.8 c-0.9,7.9,3.3,13.3,7.7,18.5c5.6,6.6,10.4,13.9,17,19.5c3.5,3,3.6,7.7,6.4,11.1c0.9,1.1-0.2,2.4-1.6,3.1c-5.5,3-5.6,8.5-5.8,13.6 c-0.1,2.4,0.7,4.9,0.5,7.4c-0.3,3.6,0.5,6.3,4.4,7.2c2.1,0.5,2.9,2.1,3.4,3.9c1.4,6.3,2.9,12.5,4,18.8c0.5,2.7,1.2,5,2.9,7.2 c4.3,5.5,3.9,11.9,2.7,18.1c-0.4,2.4-1.2,4.7-1.5,7.2c-0.6,5-5.2,7.7-8.3,10.5c-4.8,4.3-4.5,8.9-2.9,13.4c2.1,5.9,0.4,12.3,3.1,18 c1,2-0.9,4.1-2.5,5.6c-4.4,4.1-8.8,8.2-9.6,14.7c-0.2,1.8-1.9,2.2-3.5,2.2c-2.2,0-4.3,0-6.5,0c-3.3,0.1-7.2-0.6-3,4.7 c1.8,2.3-1.4,7.6-5,9c-1.2,0.5-2.6,0.7-3.7,1.3c-6.5,3.6-8.5,3.1-12-3.3c-0.8-1.4-1.3-3.1-3.3-3.4c-0.6,1.9-1.2,3.8-1.9,5.6 c-4,10.5-11.2,13.3-21.5,8.6c-1.9-0.9-3.7-2.2-6-2.3c-2.2-0.1-3.3-1.2-3.5-3.4c-0.3-2.6-1.9-4.9-4.4-4.4c-7,1.2-12.4-2.9-18.4-4.9 c-1.9-0.6-3.8-1-5.7-1.5c-3.7-0.8-7.8-1.9-9-6.1c-0.9-3.2-2.6-3.7-5.4-3.7c-11.5-0.2-12.3-1.2-15.3-12.2c-1-3.6-1.9-7-1.8-10.7 c0.1-2-0.9-3.6-2.2-4.9c-2.2-2.2-2.6-5.8-4.1-7.5c-3.8-4.3-4.2-10.6-7.9-13.9c-4.6-4-9.8-7.7-15.2-10.7c-1.4-0.5-2.9-0.8-4.4-0.7 c-0.5,0-1-0.1-1.4,0.1l-0.4,0.2c0,3.8-0.5,7.9,5.5,7.6c2,5.1,8.3,5,11.3,8.8c2.9,3.7,5.5,7.5,8.1,11.4c1.9,2.7,1.5,5.7,0.5,8.6 c-1.8,5.5-6.4,9.6-8.1,15.3c-0.7,2.2-9.1,2.8-12.1,0.9c-2.4-1.5-4.6-3.2-7.5-3.7c-0.7-0.1-1.4-0.8-2-1.4c-1.6-1.5-2.9-3-3.7-5.2 c-3.5-9.2-8.9-17.7-5.2-28.5C680.9,541.1,684.5,537,690,534z"></path>
+				<g class="st6">
+					<path class="st7" d="M452.9,270.5c0.1,5.5,0,9.4,1.4,13.3c2.3,6.3-1.6,11-8.2,12.4c-4.9,1-10.4,1.6-13.8,6.3 c-1.1,1.5-2.6,1.6-4,0.8c-2.8-1.5-4.1-0.2-5.6,2.1c-2.8,4.3-7.2,4.4-9.4-0.1c-3.4-6.9-10.1-7.3-16-9.3c-1.5-0.5-3.5-0.3-4.8-1.1 c-12.4-7.9-26.3-8.8-40.4-8.9c-4.5,0-8.3,0-10.1-5.6c-1-3.2-5-5-8.3-6c-3.4-1-4.5-3.5-4.1-5.8c1.4-7.8-4.3-11.4-8.9-15.1 c-6.6-5.3-13.8-9.7-20.7-14.7c-4.8-3.4-7.1-8.8-9.7-13.7c-2.9-5.5-7.7-8.2-13.1-8.6c-7-0.5-13.6-3-20.7-2.6 c-6,0.4-11.2-2.1-13.9-8.1c-0.6-1.3-1.6-1.6-2.8-1.8c-1.9-0.4-2.9-1.6-2.8-3.6c0.1-1.8,0.9-3.1,2.6-3.9c6.8-3.3,13-8,20.8-8.7 c0.7-0.1,1.7-0.7,2-1.3c3.3-7.7,10.9-10.5,17.2-14.4c8.7-5.4,12.6-13.1,5.6-21.8c-3.5-4.4-2.6-7.9,2.6-10.4c5-2.4,8.5-5.2,9.9-11.4 c0.9-4.2,3.6-9.1,9.4-9.8c0.9-0.1,1.9-0.8,2.5-1.5c4.8-5.2,10.8-6.1,17.4-4.9c1.6,0.3,3.5,0.4,4.2-0.9c3.8-7.5,14.1-8,17.2-16.4 c1.4-3.7,5.4-4.3,9-3.6c2.8,0.6,5.3,0.2,7.6-1.2c4.8-3,10.7-1.7,15.7-4.5c2.4-1.3,5.8,1.2,6.9,3.8c2.3,5.8,7.3,7.4,12.3,8 c5.7,0.8,11.5,1.2,17.3-0.8c3.9-1.4,8.1-1.8,11.6,1.8c2.3,2.5,4.5,1,6.5-0.7c5.8-4.9,7.6-4.7,12.3,1.4c0.3,0.4,0.7,0.8,0.8,1.2 c2.7,7.2,7.3,11.9,15.4,12.7c2.4,0.2,4.7,1.5,5.2,4.6c0.4,2.1,2.4,2,4,2.1c3.8,0,7.7,0,11.5,0c7.4,0.1,10.5,2.7,10.8,10 c0.2,5.4-0.5,10.9,1.1,16.2c0.6,2,0,3.3-3,2.6c-5.5-1.2-8.8,2.9-11.9,6.5c-2.8,3.2-2.9,6.6,0.1,10.3c2.4,2.9,5.1,6.8,5.4,9.8 c0.6,6.1,4.2,11.5,3.8,17.7c-0.5,8.3-0.1,16.3,6.9,22.4c3.9,3.4,4.1,8,2.1,11.9c-2,4.1-4.4,8.9-10.5,8.6c-2.7-0.1-5.4,0.3-8,0 c-7.1-0.8-12.7,3.4-18.5,6.1c-3.5,1.6-5.4,5.1-6.4,9.1C454.9,258,452.4,264.8,452.9,270.5z"></path>
+				</g>
+				<path class="st8" d="M691.3,108.2c8.7-5.4,10.9-5.2,17.8,1.9c5.7,6,12.4,11.5,16.4,18.5c3.3,5.7,6.7,10.8,11.6,15.1 c3,2.7,3,5.8,1.1,9c-1.6,2.8-1.2,5,1,7.2c1.8,1.8,3.3,3.8,5.2,5.4c3.7,3,5.6,6.4,5.2,11.6c-0.5,6.6,6,10.7,12.2,8.7 c1.1-0.3,2.8,0.3,3.7,1.1c0.5,0.4,0.1,2.4-0.5,3.3c-3.6,5.3-7.9,10.1-10.9,15.7c-2.3,4.3-3.5,9.3-4.3,14.1c-0.7,4.6-3.4,6.6-7.3,7.4 c-4.7,1-9.4,1.8-14.1,2.4c-2.3,0.3-5.3,0.6-6.8-0.6c-7.7-6.3-15.6,0.3-23.3-1c-1.4-0.2-2.9,0.5-4.2,0.3c-5.3-0.7-10.1-0.5-13.6,4.3 c-0.2,0.3-0.9,0.4-1.4,0.5c-7.5,1.6-15,3.1-22.6,4.7c-1,0.2-2.1,0.1-2.9,0.5c-7.8,4.1-15.1,9.4-23.3,12.1c-7.4,2.5-13.3,8-20.1,9.8 c-8.3,2.2-11.2,7.8-15.2,13.5c-2.4,3.5-8.4,3.8-11.5,0.9c-0.1-0.1-0.3-0.2-0.3-0.4c-4.7-8-11.6-5.2-18.1-3.6 c-4.3,1.1-7.7,1.3-11.7-1.4c-3.5-2.4-7.5-3.7-12.5-2.9c-7,1.1-12.5-3.8-17.6-7.9c-3.7-3-6.4-6.5-11.9-7.2c-4-0.5-8-3.7-11.4-6.4 c-2.9-2.3-5.5-3.7-9.3-3.7c-10.1,0.1-17.6-7.1-18.1-17.3c-0.3-7.2-0.3-14.3,0.1-21.5c0.1-2.3,1.5-4.6,2.7-6.7 c1.2-2.1,2.6-4.2,4.2-6.1c2.5-2.9,4.5-7.2,9.7-4.2c0.5,0.3,2.3-0.4,2.4-0.8c0.3-1.7,0.9-3.9,0.1-5.1c-2.4-3.8-4.7-7.9-8.1-10.5 c-7.9-6.2-5.5-12.4-0.8-18.9c3.8-5.2,7.6-10.3,11-15.7c2.9-4.6-2.1-12.3-8-12.6c-4.5-0.2-9,0.1-13.5-0.1c-1.3-0.1-2.5-1.4-3.8-2.1 c1.1-1.6,2-4.2,3.4-4.6c3.3-0.9,7.4,0.3,10.2-1.2c4.1-2.1,7.7-5.5,10.7-9c3.6-4.2,7.5-7.2,13-7.3c3.6-0.1,7.2,0.7,10.8,1 c6.1,0.5,12.2,0.9,18.3,1.3c1,0.1,2.1-0.3,4.8-0.7c-3-3.3-4.8-5.8-7.2-7.8c-3.3-2.8-4.5-7.8-3.2-12.1c0.7-2,0.6-4.8-0.3-6.7 c-2.3-5-2.1-8.8,2.1-13c4.3-4.4,7.3-10.1,11.3-14.8c3-3.6,6.2-7.3,10.1-9.8c2.6-1.8,6.5-2.3,9.8-2.4c5.4,0,10.3-0.2,15.4-2.8 c2.9-1.5,7.1-1.1,10.5-0.3c7,1.5,14.4-3.2,21,1.9c1.8,1.4,3.7,2.8,5.2,4.5c6.1,7,15,11.5,18.8,20.6c1,2.3,1.6,5,1.6,7.5 c-0.1,4.7-1.1,9.4-1.3,14.1c-0.1,1.4,1.1,3,1.9,4.4c1.3,2.4,2.5,5,4.3,7.1c1.3,1.5,3.7,3.2,5.4,3c4.6-0.6,8.9-2.5,13.5-3.2 c4.2-0.6,8.6-0.4,12.9-0.4c0.7,0,1.7,1,2,1.8c1.9,4.9,5,8.3,10.4,9.3c1.2,0.2,2.1,1.9,3,3C688.4,104.4,689.8,106.2,691.3,108.2z M473.7,211.5c0,4-0.1,6.6,0,9.3c0.3,11.6,10.6,17.9,21,12.5c1.4-0.7,2.7-3.1,2.7-4.8c0.1-2.4-0.5-5.1-1.8-7.1 c-4.3-6.5-4.5-13.9-5.3-21.2c-0.3-2.6,0.3-5.4-0.3-7.9c-0.5-2.1-2.3-3.8-3.5-5.7c-1.4,1.4-2.8,2.8-4.1,4.3c-0.6,0.6-1.1,1.3-1.6,1.9 C476.2,198.7,471.4,204.5,473.7,211.5z"></path>
+				<g class="st6">
+					<path class="st9" d="M139.2,417.8c3.5,1.7,5,0.3,6.5-1c3.1-2.7,6.4-3.8,10.6-3.2c4.8,0.8,7.4-1.4,7.7-6.1c0.3-5.6,3.1-8.7,7.7-12.1 c5.5-4.1,13.2-6.3,15.2-14.7c1.2-5.3-0.3-9.5-3.2-13.4c-2-2.7-3.7-5.3-4.5-8.7c-1.1-4.5-5.5-7-7.4-11.1c-2.5-5.2-2.4-8.4,1.7-12.5 c1.3-1.3,2.6-2.6,3.9-3.9c4.2-4,6.3-3.8,10.3,0.4c2.6,2.7,5.4,4.5,9.7,3c3.3-1.2,7-0.9,10.2,1.1c3.6,2.2,7.4,2.5,11.5,2.5 c8.5,0,16.6,1.2,22.7,8c1.3,1.4,3.2,2.4,5,1.7c4.1-1.5,9.2-0.4,12.6-2.3c6.2-3.5,13.3-2.7,19.5-5.4c0.9-0.4,2.1-0.6,2.7-1.2 c4.4-4.9,9-3.8,13.9-1c2.8,1.6,5.7,2.1,9.1,1.4c6.9-1.4,17.1,3.9,20.6,10.1c2.7,4.9,8,7.2,11.8,11c5.3,5.3,8.4,16.9,5.1,23.7 c-2.9,5.9-7,11.3-6.1,18.6c0.2,2-1.3,3.5-2.9,4.9c-3.9,3.4-9.9,5.7-7.1,13c0.7,1.7-1,2.8-2.8,3.5c-5.7,2.1-11.4,4.3-17.4,5.5 c-3.6,0.7-6.5,2.7-9.4,4.5c-9.1,5.8-18.2,5.8-27.7,1.1c-5.2-2.5-10.7-4.5-16.2-6.5c-3.2-1.2-4.2,0.8-4.2,3.6 c0,4.2-0.1,8.2-1.6,12.3c-1,2.8-1.5,4.9-4.8,6.1c-2.9,1.1-1.7,5.1-3.2,7.5c-1,1.5-1.2,3.8-3.4,3.8c-4.4-0.1-5.4,2.5-5,6.2 c0.3,2.7-0.8,5.2-1.3,7.8c-1,4.7-4.1,6.6-8.8,6.1c-6-0.6-9.6,1.4-11.9,7.3c-1.1,2.9-2.8,4.7-5.8,4.6c-6.9-0.2-13.5,1.1-20.2,2.5 c-2.9,0.6-4.9-0.3-6-3c-1-2.5-2.8-4.1-5.3-4.9c-5.4-1.9-10.6-4.4-16.7-4.4c-7.4,0-9.6-2.5-10-10.1c-0.3-6.8-1.4-8.3-8.1-9.8 c-2.9-0.6-3.9-2.2-3.8-4.8c0.2-3.7-0.9-7.7,2.1-11c0.9-0.9,0.6-1.5-0.6-2.3c-4.8-3.2-5.1-15.6-0.7-19.1c0.4-0.3,0.9-0.5,1.3-0.8 c1.6-1.6,5.1-3.3,4.2-5c-1.4-2.5-4.3-0.4-6.6,0.3c-1.2,0.4-2.8,0.8-3.9,0.3c-5.9-2.5-12.2-2-18.2-1.5c-7.4,0.6-13.6-1.9-19.7-5.4 c-3-1.7-3.8-4.7-3.7-7.7c0.2-4.6-1.1-7.3-6.3-7.2c-3.2,0.1-4.5-2.2-5.8-5.1c-4.3-9.7,0.5-17.7,4-26.1c5-12,13.9-21.4,22-31.3 c3-3.7,7-6.7,9.5-11.1c1.1-2,3.7-2,5.9-2.1c2.8-0.1,5.7,0,8.5,0c2.7,0,4.4,1.4,4.7,4.1c0.9,6.8,4.9,10.7,11.5,11.9 c3.1,0.6,5.7,1.8,7.7,4.2c4,4.9,9.7,8,13.4,13.2c1.5,2.2,3.8,2.2,6.3,1.8c6.2-0.9,9.3,2,8.3,8.3c-0.8,4.7-2,9.4-2.3,14.2 c0,0.5-0.1,1.1-0.4,1.4c-6.2,6.5-9.4,15.8-17.8,20.3C148.7,407,146.1,414.2,139.2,417.8z"></path>
+				</g>
+				<path class="st10" d="M407,317.6c8,10.6,12.2,21.3,0.3,33.1c-5.5-0.4-12.8-0.9-20.7-1.5c-0.2-3.8-0.3-7.8-0.5-11.9 c-5.5,0-6.5,1.7-5.5,6.8c0.4,2-0.2,4.1-0.3,6.2c-1.9-1.7-4.9-3.2-5.6-5.3c-1.1-3.4-1.7-5.7-5.4-4.2c-0.7,4.3-0.7,8.5-2.2,12.1 c-2.9,6.8-10.7,8.7-16.4,3.9c-4.3-3.6-8.1-4-13.6-3c-3.3,0.6-8.9-2.4-11-5.4c-5-7.2-14-11.8-22.6-10.5c-2.1,0.3-5.2-2.1-6.8-4.1 c-0.8-1,0.4-5.3,1.5-5.7c8.1-2.4,10.5-10.1,15.4-15.5c3.4-3.8,5.8-8.6,9.4-12.2c3.3-3.3,7.7-5.5,11.6-8.1c2.2-1.5,4.4-2.9,6.6-4.4 c4.9-3.2,9.8-6.5,14.8-9.6c0.8-0.5,2.2-0.2,3.3,0c8.5,1.8,17,3.5,25.5,5.5c2,0.5,4.2,1.4,5.7,2.8c5.2,4.9,12.1,4.6,18.3,6.8 c3.2,1.1,5.9,2.4,6.7,5.8c0.2,0.9-0.3,2.7-0.8,2.9c-4.7,1.5-2.6,4.9-1.9,7.4C414.2,315.9,414.4,315.9,407,317.6z"></path></svg>
+			</div>
+		</div>
+		<div class="areas">
+			<div class="basinarea">
+				<div class="scroll">
+					<img class="quest" src="./img/quest.png">
+					<div class="explaination">
+						Sholazar Basin is a lush tropical forest in western Northrend. It owes its warm climate to the pylons around the zone, which are maintained by the Titans and also ward off the Scourge. Players will revisit Hemet Nesingwary and prove their hunting prowess for him, become an unwitting ambassador in a faction war between the Oracles and the Frenzyheart tribes, and learn about the power of the pylons.
+					</div>
+				</div>
+			</div>
+			<div class="tundraarea">
+				<div class="scroll">
+					<img class="quest" src="./img/quest.png">
+					<div class="explaination">
+						Borean Tundra is mostly ice, punctuated by grasslands. It is occupied by many factions: the Alliance (based in Valiance Keep), the Horde (based in Warsong Hold), D.E.H.T.A protesting the slaughter of animals, the peaceful Tuskarr driven away from their coastal lands, nerubians and Prince Valanar to the North, the Kirin Tor assisting the dragonflights in Coldarra, and the mysterious taunka, an ancient branch of the Tauren.
+					</div>
+				</div>
+			</div>
+			<div class="icecrownarea">
+				<div class="scroll">
+					<img class="quest" src="./img/quest.png">
+					<div class="explaination">
+						Icecrown, composed literally of solid ice, is home to the Frozen Throne and Icecrown Citadel. The Lich King's presence can be felt across the zone, with the Argent Crusade and Ebon Blade battling all sorts of Scourge horrors. There are also quest chains covering the Scarlet Onslaught's final outpost, as well as the presence of the corrupted Vrykul.
+					</div>
+				</div>
+			</div>
+			<div class="stormpeaksarea">
+				<div class="scroll">
+					<img class="quest" src="./img/quest.png">
+					<div class="explaination">
+						The Storm Peaks is a frigid mountainous region that used to be the home of the titans, with Ulduar as their city. Currently, the storm giants live in the Storm Peaks. Players questing in this zone will learn about the lore behind the titans, the Hyldnir, Brann Bronzebeard, and the Sons of Hodir.
+					</div>
+				</div>
+			</div>
+			<div class="crystalarea">
+				<div class="scroll">
+					<img class="quest" src="./img/quest.png">
+					<div class="explaination">
+						Crystalsong Forest is a tranquil forest in the center of Northrend, from which Dalaran floats above. Dalaran is a magocratic city-state and was once located within the Alterac Mountains in the Eastern Kingdoms. The top part of the city is sparkling and airy, while the sewers underground show the darker side of magic addiction and luxury.
+					</div>
+				</div>
+			</div>
+			<div class="zuldrakarea">
+				<div class="scroll">
+					<img class="quest" src="./img/quest.png">
+					<div class="explaination">
+						Zul'Drak is the home of the Drakkari ice trolls, who have gone insane after sacrificing their loa gods to fight off the Scourge. The Argent Dawn and the Zandalari tribe have tried to restore order to the zone, after its decimation and betrayal by Drakkuru. The zone is covered in Scourge blight and abandoned ziggurats, with Gundrak at its pinnacle.
+					</div>
+				</div>
+			</div>
+			<div class="wintergrasparea">
+				<div class="scroll">
+					<img class="quest" src="./img/quest.png">
+					<div class="explaination">
+						Wintergrasp is a World PvP zone, similar to Tol Barad. It emphasizes siege weapon warfare--walls and towers are destroyed not by player damage, but by siege damage. Your siege engine amount is controlled by which workshops in the zone your faction owns.
+					</div>
+				</div>
+			</div>
+			<div class="grizzlyarea">
+				<div class="scroll">
+					<img class="quest" src="./img/quest.png">
+					<div class="explaination">
+						Grizzly Hills is a stunning but sinister pine forest in eastern Northrend. Players investigate Arugal and the curse of the Worgen, PvP for control of the Blackriver Logging Camp and Venture Bay, escort Harrison Jones and the rest of the Zul'Aman crew through troll ruins, and heal Vordrassil, a defective World Tree. Grizzly Hills is home to trappers, ice trolls, iron dwarves, and furbolgs.
+					</div>
+				</div>
+			</div>
+			<div class="howlingfjordarea">
+				<div class="scroll">
+					<img class="quest" src="./img/quest.png">
+					<div class="explaination">
+						Howling Fjord is the eastern-most zone in Northrend, with breathtaking mountains, cliffs, and fortresses. Alliance players learn about the reawakened vrykul, the prototype for humans, while Horde players assist the Forsaken in developing a new plague (perhaps with ethical qualms) to defeat the Lich King. Both sides also assist the Tuskarr in putting the spirits of their ancestors to rest, as well as aiding a group of humorous pirates.
+					</div>
+				</div>
+			</div>
+			<div class="dragonblightarea">
+				<div class="scroll">
+					<img class="quest" src="./img/quest.png">
+					<div class="explaination">
+						Dragonblight is the central area in Northrend. It is an icy valley, covered with the bodies of dead dragons. Players learn about two major plotlines here: the dragonflights at Wyrmrest Temple, and the Wrathgate plot, which has very different stories for Alliance and Horde.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="divider"></div><!--CLASS-->
+		<div class="dkintro" id="newclass">
+			<div class="dktitle">
+				<div class="dksubtitle">
+					World of Warcraft's first Hero Class
+				</div>Master the necromantic powers of the Death Knight
+			</div>
+			<div class="dkpic"></div>
+		</div>
+		<div class="dk">
+			<div class="gnome">
+				<div class="classoverview">
+					Frost sharpens their strikes; blood fortifies their bodies; and undeath allows them to erupt in unholy rage in the heat of battle. A thousand atrocities are etched in the eyes of every death knight, and foes who gaze into them too long will feel the warmth pulled from their bodies, replaced with cold steel.
+				</div>
+			</div>
+			<div class="specoverviewblood">
+				<div class="spectitle">
+					BLOOD
+				</div><br>
+				The Blood specialisation relies on self-healing, taking more damage (on average) than other tanks and healing more to make up for this. Through leech effects, Blood Death Knights can easily reach extremely high amounts of healing.
+			</div>
+			<div class="specoverviewfrost">
+				<div class="spectitle">
+					FROST
+				</div><br>
+				The Frost specialisation provides reasonable single target and AoE DPS, and it seems to be on par with Unholy in terms of performance. Its playstyle is straightforward, and its rotation is easy to learn and master.
+			</div>
+			<div class="specoverviewunholy">
+				<div class="spectitle">
+					UNHOLY
+				</div><br>
+				The Unholy specialisation currently provides excellent single target damage, as well as excellent cleave damage against 2-3 targets. It is better in this regard when compared to many other specialisations.
+			</div>
+			<div class="icons">
+				<div class="tooltip">
+					<input class="blood" src="./img/blood.png" style="width: 232px;height: 182px" type="image" value="submit"><span class="tooltiptextblood">Blood</span>
+				</div>
+				<div class="tooltip">
+					<input class="frost" src="./img/frost.png" style="width: 232px;height: 182px" type="image" value="submit"><span class="tooltiptextfrost">Frost</span>
+				</div>
+				<div class="tooltip">
+					<input class="unholy" src="./img/unholy.png" style="width: 232px;height: 182px" type="image" value="submit"><span class="tooltiptextunholy">Unholy</span>
+				</div><!--talents-->
+				<div class="talents">
+					<div id="blood_talents">
+						<div class="group1">
+							<div class="tooltip">
+								<img src="./img/blood/Spell_deathknight_vendetta.png" style="width: 80px;height: 80px"><span class="tooltiptextblood">Vendetta</span>
+							</div>
+							<div class="tooltip">
+								<img src="./img/blood/Spell_deathknight_subversion.png" style="width: 80px;height: 80px"><span class="tooltiptextblood">Subversion</span>
+							</div>
+							<div class="tooltip">
+								<img src="./img/blood/Spell_deathknight_runetap.png" style="width: 80px;height: 80px"><span class="tooltiptextblood">Runetap</span>
+							</div>
+							<div class="tooltip">
+								<img src="./img/blood/Spell_deathknight_gnaw_ghoul.png" style="width: 80px;height: 80px"><span class="tooltiptextblood">Gnaw Ghoul</span>
+							</div>
+						</div>
+						<div class="group2">
+							<div class="tooltip">
+								<img class="" src="./img/blood/Spell_deathknight_deathstrike.png" style="width: 80px;height: 80px"><span class="tooltiptextblood">Deathstrike</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/blood/Spell_deathknight_butcher2.png" style="width: 80px;height: 80px"><span class="tooltiptextblood">Butcher Rank 2</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/blood/Spell_deathknight_butcher.png" style="width: 80px;height: 80px"><span class="tooltiptextblood">Butcher Rank 1</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/blood/Spell_deathknight_bloodtap.png" style="width: 80px;height: 80px"><span class="tooltiptextblood">Bloodtap</span>
+							</div>
+						</div>
+						<div class="group3">
+							<div class="tooltip">
+								<img class="" src="./img/blood/Ability_creature_cursed_02.png" style="width: 80px;height: 80px"><span class="tooltiptextblood">Creature Curse</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/blood/Spell_deathknight_bladedarmor.png" style="width: 80px;height: 80px"><span class="tooltiptextblood">Blade Armor</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/blood/Spell_deathknight_bloodboil.png" style="width: 80px;height: 80px"><span class="tooltiptextblood">Bloodboil</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/blood/Spell_deathknight_bloodpresence.png" style="width: 80px;height: 80px"><span class="tooltiptextblood">Blood Presence</span>
+							</div>
+						</div>
+					</div>
+					<div id="frost_talents">
+						<div class="group1">
+							<div class="tooltip">
+								<img src="./img/frost/Ability_deathknight_pillaroffrost.png" style="width: 80px;height: 80px"><span class="tooltiptextfrost">Pillar of Frost</span>
+							</div>
+							<div class="tooltip">
+								<img src="./img/frost/Ability_deathknight_runicimpowerment.png" style="width: 80px;height: 80px"><span class="tooltiptextfrost">Runicimpowerment</span>
+							</div>
+							<div class="tooltip">
+								<img src="./img/frost/Spell_deathknight_empowerruneblade2.png" style="width: 80px;height: 80px"><span class="tooltiptextfrost">Empower runeblade rank 2</span>
+							</div>
+							<div class="tooltip">
+								<img src="./img/frost/Spell_deathknight_festering_strike.png" style="width: 80px;height: 80px"><span class="tooltiptextfrost">Festering Strike</span>
+							</div>
+						</div>
+						<div class="group2">
+							<div class="tooltip">
+								<img class="" src="./img/frost/Spell_deathknight_frostfever.png" style="width: 80px;height: 80px"><span class="tooltiptextfrost">Frost Fever</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/frost/Spell_deathknight_frostpresence.png" style="width: 80px;height: 80px"><span class="tooltiptextfrost">Frost Presence</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/frost/Spell_deathknight_frozenruneweapon.png" style="width: 80px;height: 80px"><span class="tooltiptextfrost">Frozen Rune Weapon</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/frost/Spell_deathknight_iceboundfortitude.png" style="width: 80px;height: 80px"><span class="tooltiptextfrost">Icebound Fortitude</span>
+							</div>
+						</div>
+						<div class="group3">
+							<div class="tooltip">
+								<img class="" src="./img/frost/Spell_deathknight_icetouch.png" style="width: 80px;height: 80px"><span class="tooltiptextfrost">Ice Touch</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/frost/Spell_deathknight_icytalons.png" style="width: 80px;height: 80px"><span class="tooltiptextfrost">Icy Talons</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/frost/Spell_deathknight_mindfreeze.png" style="width: 80px;height: 80px"><span class="tooltiptextfrost">Mind Freeze</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/frost/Spell_deathknight_pathoffrost.png" style="width: 80px;height: 80px"><span class="tooltiptextfrost">Path of Frost</span>
+							</div>
+						</div>
+					</div>
+					<div id="unholy_talents">
+						<div class="group1">
+							<div class="tooltip">
+								<img src="./img/unholy/Spell_deathknight_empowerruneblade.png" style="width: 80px;height: 80px"><span class="tooltiptextunholy">Empower Runeblade</span>
+							</div>
+							<div class="tooltip">
+								<img src="./img/unholy/Ability_creature_disease_02.png" style="width: 80px;height: 80px"><span class="tooltiptextunholy">Creature Disease Rank 1</span>
+							</div>
+							<div class="tooltip">
+								<img src="./img/unholy/Ability_creature_disease_03.png" style="width: 80px;height: 80px"><span class="tooltiptextunholy">Creature Disease Rank 2</span>
+							</div>
+							<div class="tooltip">
+								<img src="./img/unholy/Ability_creature_cursed_03.png" style="width: 80px;height: 80px"><span class="tooltiptextunholy">Creature Cursed</span>
+							</div>
+						</div>
+						<div class="group2">
+							<div class="tooltip">
+								<img class="" src="./img/unholy/Spell_deathknight_armyofthedead.png" style="width: 80px;height: 80px"><span class="tooltiptextunholy">Army of the Dead</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/unholy/Spell_deathknight_bloodplague.png" style="width: 80px;height: 80px"><span class="tooltiptextunholy">Blood Plague</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/unholy/Spell_deathknight_explode_ghoul.png" style="width: 80px;height: 80px"><span class="tooltiptextunholy">Explode Ghoul</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/unholy/Spell_deathknight_plaguestrike.png" style="width: 80px;height: 80px"><span class="tooltiptextunholy">Plaguestrike</span>
+							</div>
+						</div>
+						<div class="group3">
+							<div class="tooltip">
+								<img class="" src="./img/unholy/Spell_deathknight_scourgestrike.png" style="width: 80px;height: 80px"><span class="tooltiptextunholy">Scourgestrike</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/unholy/Ability_creature_disease_05.png" style="width: 80px;height: 80px"><span class="tooltiptextunholy">Creature Disease Rank 3</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/unholy/Spell_deathknight_unholypresence.png" style="width: 80px;height: 80px"><span class="tooltiptextunholy">Unholy Presence</span>
+							</div>
+							<div class="tooltip">
+								<img class="" src="./img/unholy/Spell_deathknight_thrash_ghoul.png" style="width: 80px;height: 80px"><span class="tooltiptextunholy">Thrash Ghoul</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="divider"></div>
+		<div class="frostmourne"><img class="shadow" src="./img/shadowmourne2.png" style="width: 482px;height: 597px;">
+		<div class="altar"></div>
+		<div class="shadowmourneindex">
+			<div class="shadowtitle">
+				SHADOWMOURNE
+			</div>Shadowmourne... A great two-handed axe fit for a giant, born of sacred and corrupt powers, host of a thousand dead souls and able to be wielded only by the most stalwart armsmasters of Azeroth. Its creation seems nearly impossible; and yet, the rumors do not cease. Who will be bold enough to try to wield such a weapon? Might Shadowmourne bring the same doom and misery to the living as its sister blade did?
+		</div><img class="circle" src="./img/cricle.png"></div>
+		<div class="divider"></div>
+		<div class="bossiconsbar">
+			<div class="villians" id="villians">
+				Assault on Icecrown Citadel
+			</div>
+			<div class="exp">
+				The citadel is inhabited by some of the strongest and vilest of the Lich King's minions - a great army of the living dead standing between their dark master and those who seek to destroy him.
+			</div>
+			<div class="bossicons">
+				<input class="marrow" src="./img/boss/1.jpg" style="width: 70px;height: 70px; margin: 5px; border-radius: 8px" type="image" value="submit"> <input class="dw" src="./img/boss/2.jpg" style="width: 70px;height: 70px; margin: 5px; border-radius: 8px" type="image" value="submit"> <input class="gun" src="./img/boss/3.jpg" style="width: 70px;height: 70px; margin: 5px; border-radius: 8px" type="image" value="submit"> <input class="db" src="./img/boss/4.jpg" style="width: 70px;height: 70px; margin: 5px; border-radius: 8px" type="image" value="submit"> <input class="rf" src="./img/boss/5.jpg" style="width: 70px;height: 70px; margin: 5px; border-radius: 8px" type="image" value="submit"> <input class="pp" src="./img/boss/6.jpg" style="width: 70px;height: 70px; margin: 5px; border-radius: 8px" type="image" value="submit"> <input class="bc" src="./img/boss/7.jpg" style="width: 70px;height: 70px; margin: 5px; border-radius: 8px" type="image" value="submit"> <input class="bq" src="./img/boss/8.jpg" style="width: 70px;height: 70px; margin: 5px; border-radius: 8px" type="image" value="submit"> <input class="drw" src="./img/boss/9.jpg" style="width: 70px;height: 70px; margin: 5px; border-radius: 8px" type="image" value="submit"> <input class="sin" src="./img/boss/10.jpg" style="width: 70px;height: 70px; margin: 5px; border-radius: 8px" type="image" value="submit"> <input class="Lichking" src="./img/boss/11.jpg" style="width: 70px;height: 70px; margin: 5px; border-radius: 8px" type="image" value="submit">
+			</div>
+		</div>
+		<div class="divider"></div>
+		<div class="bosses">
+			<div class="icc">
+				<div id="lord_marogar">
+					<img src="./img/boss/marrowgar.png" style="margin-top: -50px;width: 870px;height: 870px;margin-left: 242px;position: absolute;-webkit-filter: drop-shadow(0px 0px 3px rgba(0, 231, 255, 0.3));">
+					<div class="bosstitle">
+						LORD MARROWGAR
+					</div>
+					<div class="bosstext">
+						Lord Marrowgar is the first boss of the Icecrown Citadel raid. Pieced together by the Lich King from the bones of a thousand vanquished adventurers, he is the guardian of the Frozen Throne within The Spire and wields the power of the throne itself
+						<div class="imgslide">
+							<!--for show-->
+							<div class="row">
+								<div class="column"><img class="hover-shadow" onclick="openModal('marogarModal');showSlides(1,'marogarModal')" src="./img/slides/marrowgar/icon.png" style="width: 150px; height: 150px; border-image: url('./img/box.png') 30 round; border-style: solid;border-width: 10px;-webkit-filter: drop-shadow(0px 0px 5px rgb(1, 122, 161)); cursor: pointer"></div>
+							</div>
+							<div class="modal" id="marogarModal">
+								<span class="close cursor" onclick="closeModal('marogarModal')">&times;</span> <!--actual images-->
+								<div class="modal-content">
+									<div class="mySlides">
+									<div class="numbertext">
+										1 / 7
+									</div><img src="./img/slides/marrowgar/1.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										2 / 7
+									</div><img src="./img/slides/marrowgar/2.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										3 / 7
+									</div><img src="./img/slides/marrowgar/3.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										4 / 7
+									</div><img src="./img/slides/marrowgar/4.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										5 / 7
+									</div><img src="./img/slides/marrowgar/5.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										6 / 7
+									</div><img src="./img/slides/marrowgar/6.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										7 / 7
+									</div><img src="./img/slides/marrowgar/7.jpg" style="width:100%"></div><a class="prev" onclick="plusSlides(-1,'marogarModal')">&#10094;</a> <a class="next" onclick="plusSlides(1,'marogarModal')">&#10095;</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="death_whisper">
+					<img src="./img/boss/deathwhisper.png" style="margin-top: -50px;width: 800px;height: 800px;margin-left: 292px;position: absolute;-webkit-filter: drop-shadow(0px 0px 3px rgba(0, 231, 255, 0.3));">
+					<div class="bosstitle">
+						Lady Death Whisper
+					</div>
+					<div class="bosstext">
+						The lich Lady Deathwhisper is the Supreme Overseer of the Cult of the Damned and the second boss of the Icecrown Citadel raid
+						<div class="imgslide">
+							<!--for show-->
+							<div class="row">
+								<div class="column"><img class="hover-shadow" onclick="openModal('deathModal');showSlides(1,'deathModal')" src="./img/slides/deathwhisper/icon.jpg" style="width: 150px; height: 150px; border-image: url('./img/box.png') 30 round; border-style: solid;border-width: 10px;-webkit-filter: drop-shadow(0px 0px 5px rgb(81, 97, 185)); cursor: pointer"></div>
+							</div>
+							<div class="modal" id="deathModal">
+								<span class="close cursor" onclick="closeModal('deathModal')">&times;</span> <!--actual images-->
+								<div class="modal-content">
+									<div class="mySlides">
+									<div class="numbertext">
+										1 / 3
+									</div><img src="./img/slides/deathwhisper/1.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										2 / 3
+									</div><img src="./img/slides/deathwhisper/2.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										3 / 3
+									</div><img src="./img/slides/deathwhisper/3.jpg" style="width:100%"></div><a class="prev" onclick="plusSlides(-1,'deathModal')">&#10094;</a> <a class="next" onclick="plusSlides(1,'deathModal')">&#10095;</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="gunship">
+					<img src="./img/boss/gunship.png" style="margin-top: -50px;width: 800px;height: 800px;margin-left: 292px;position: absolute;-webkit-filter: drop-shadow(0px 0px 3px rgba(0, 231, 255, 0.3));">
+					<div class="bosstitle">
+						The Gunship Battle
+					</div>
+					<div class="bosstext">
+						The Icecrown Gunship Battle is an aerial battle between the gunships Skybreaker and Orgrim's Hammer around the spire of Icecrown Citadel.
+						<div class="imgslide">
+							<!--for show-->
+							<div class="row">
+								<div class="column"><img class="hover-shadow" onclick="openModal('gunshipModal');showSlides(1,'gunshipModal')" src="./img/slides/gunship/icon.jpg" style="width: 150px; height: 150px; border-image: url('./img/box.png') 30 round; border-style: solid;border-width: 10px;-webkit-filter: drop-shadow(0px 0px 5px rgb(152, 140, 71)); cursor: pointer"></div>
+							</div>
+							<div class="modal" id="gunshipModal">
+								<span class="close cursor" onclick="closeModal('gunshipModal')">&times;</span> <!--actual images-->
+								<div class="modal-content">
+									<div class="mySlides">
+									<div class="numbertext">
+										1 / 4
+									</div><img src="./img/slides/gunship/1.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										2 / 4
+									</div><img src="./img/slides/gunship/2.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										3 / 4
+									</div><img src="./img/slides/gunship/3.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										4 / 4
+									</div><img src="./img/slides/gunship/4.jpg" style="width:100%"></div><a class="prev" onclick="plusSlides(-1,'gunshipModal')">&#10094;</a> <a class="next" onclick="plusSlides(1,'gunshipModal')">&#10095;</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="saurfang">
+					<img src="./img/boss/saurfang.png" style="margin-top: -50px;width: 800px;height: 800px;margin-left: 292px;position: absolute;-webkit-filter: drop-shadow(0px 0px 3px rgba(0, 231, 255, 0.3));">
+					<div class="bosstitle">
+						Deathbringer Saurfang
+					</div>
+					<div class="bosstext">
+						Deathbringer Saurfang is described as being the Lich King's most powerful death knight. After falling to Frostmourne at the Battle of Angrathar the Wrathgate, Dranosh Saurfang was raised in undeath by the Lich King and brought to Icecrown Citadel.
+						<div class="imgslide">
+							<!--for show-->
+							<div class="row">
+								<div class="column"><img class="hover-shadow" onclick="openModal('saurfangModal');showSlides(1,'saurfangModal')" src="./img/slides/deathbringer/icon.jpg" style="width: 150px; height: 150px; border-image: url('./img/box.png') 30 round; border-style: solid;border-width: 10px;-webkit-filter: drop-shadow(0px 0px 5px rgb(111, 20, 27)); cursor: pointer"></div>
+							</div>
+							<div class="modal" id="saurfangModal">
+								<span class="close cursor" onclick="closeModal('saurfangModal')">&times;</span> <!--actual images-->
+								<div class="modal-content">
+									<div class="mySlides">
+									<div class="numbertext">
+										1 / 4
+									</div><img src="./img/slides/deathbringer/1.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										2 / 4
+									</div><img src="./img/slides/deathbringer/2.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										3 / 4
+									</div><img src="./img/slides/deathbringer/3.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										4 / 4
+									</div><img src="./img/slides/deathbringer/4.jpg" style="width:100%"></div><a class="prev" onclick="plusSlides(-1,'saurfangModal')">&#10094;</a> <a class="next" onclick="plusSlides(1,'saurfangModal')">&#10095;</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="rot">
+					<img src="./img/boss/rotface.png" style="margin-top: -50px;width: 800px;height: 800px;margin-left: 207px;position: absolute"> <img src="./img/boss/festergut.png" style="margin-top: -50px;width: 800px;height: 800px;margin-left: 406px;position: absolute;">
+					<div class="bosstitle">
+						Rotface and Festergut
+					</div>
+					<div class="bosstext">
+						Rotface and Festergut are bosses in the Plagueworks wing of the Icecrown Citadel raid. Made from body parts of the undead by the mad Professor Putricide.
+						<div class="imgslide">
+							<!--for show-->
+							<div class="row">
+								<div class="column"><img class="hover-shadow" onclick="openModal('rotModal');showSlides(1,'rotModal')" src="./img/slides/rot/icon.jpg" style="width: 150px; height: 150px; border-image: url('./img/box.png') 30 round; border-style: solid;border-width: 10px;-webkit-filter: drop-shadow(0px 0px 5px rgb(52, 70, 56)); cursor: pointer"></div>
+							</div>
+							<div class="modal" id="rotModal">
+								<span class="close cursor" onclick="closeModal('rotModal')">&times;</span> <!--actual images-->
+								<div class="modal-content">
+									<div class="mySlides">
+									<div class="numbertext">
+										1 / 4
+									</div><img src="./img/slides/rot/1.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										2 / 4
+									</div><img src="./img/slides/rot/2.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										3 / 4
+									</div><img src="./img/slides/rot/3.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										4 / 4
+									</div><img src="./img/slides/rot/4.jpg" style="width:100%"></div><a class="prev" onclick="plusSlides(-1,'rotModal')">&#10094;</a> <a class="next" onclick="plusSlides(1,'rotModal')">&#10095;</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="professor">
+					<img src="./img/boss/putricide.png" style="margin-top: -50px;width: 800px;height: 800px;margin-left: 292px;position: absolute">
+					<div class="bosstitle">
+						Professor Putricide
+					</div>
+					<div class="bosstext">
+						Professor Putricide is the Scourge genius behind the development of all forms of blight, plague, ooze, scourge, and death delivery. He is the final boss in the Plagueworks section of Icecrown Citadel, the first Icecrown wing to be unlocked. In order to reach his laboratory, players must first defeat Festergut and Rotface.
+						<div class="imgslide">
+							<!--for show-->
+							<div class="row">
+								<div class="column"><img class="hover-shadow" onclick="openModal('ppModal');showSlides(1,'ppModal')" src="./img/slides/pp/icon.jpg" style="width: 150px; height: 150px;border-image: url('./img/box.png') 30 round; border-style: solid;border-width: 10px;-webkit-filter: drop-shadow(0px 0px 5px rgb(68, 78, 61)); cursor: pointer"></div>
+							</div>
+							<div class="modal" id="ppModal">
+								<span class="close cursor" onclick="closeModal('ppModal')">&times;</span> <!--actual images-->
+								<div class="modal-content">
+									<div class="mySlides">
+									<div class="numbertext">
+										1 / 7
+									</div><img src="./img/slides/pp/1.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										2 / 7
+									</div><img src="./img/slides/pp/2.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										3 / 7
+									</div><img src="./img/slides/pp/3.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										4 / 7
+									</div><img src="./img/slides/pp/4.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										5 / 7
+									</div><img src="./img/slides/pp/5.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										6 / 7
+									</div><img src="./img/slides/pp/6.png" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										7 / 7
+									</div><img src="./img/slides/pp/7.jpg" style="width:100%"></div><a class="prev" onclick="plusSlides(-1,'ppModal')">&#10094;</a> <a class="next" onclick="plusSlides(1,'ppModal')">&#10095;</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="council">
+					<img src="./img/boss/council.png" style="margin-top: -50px;width: 800px;height: 800px;margin-left: 292px;position: absolute">
+					<div class="bosstitle">
+						The Blood Prince COuncil
+					</div>
+					<div class="bosstext">
+						The Blood Prince Council is the first encounter in the Crimson Hall wing in Icecrown Citadel. The council consists of the darkfallen princes Keleseth, Valanar and Taldaram. All of them have been fought and killed by adventurers and brought back to Icecrown Citadel to once again serve the Lich King.
+						<div class="imgslide">
+							<!--for show-->
+							<div class="row">
+								<div class="column"><img class="hover-shadow" onclick="openModal('councilModal');showSlides(1,'councilModal')" src="./img/slides/council/icon.jpg" style="width: 150px; height: 150px; border-image: url('./img/box.png') 30 round; border-style: solid;border-width: 10px;-webkit-filter:drop-shadow(0px 0px 5px rgb(187, 62, 17)); cursor: pointer"></div>
+							</div>
+							<div class="modal" id="councilModal">
+								<span class="close cursor" onclick="closeModal('councilModal')">&times;</span> <!--actual images-->
+								<div class="modal-content">
+									<div class="mySlides">
+									<div class="numbertext">
+										1 / 3
+									</div><img src="./img/slides/council/1.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										2 / 3
+									</div><img src="./img/slides/council/2.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										3 / 3
+									</div><img src="./img/slides/council/3.jpg" style="width:100%"></div><a class="prev" onclick="plusSlides(-1,'councilModal')">&#10094;</a> <a class="next" onclick="plusSlides(1,'councilModal')">&#10095;</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="queen">
+					<img src="./img/boss/lanathel.png" style="margin-top: -50px;width: 800px;height: 800px;margin-left: 292px;position: absolute">
+					<div class="bosstitle">
+						The Blood Queen Lanathel
+					</div>
+					<div class="bosstext">
+						Blood-Queen Lana'thel is the leader of the San'layn, a group of Kael'thas' greatest followers, raised in undeath by the Lich King and transformed into vampiric beings. Lana'thel now makes her home in the Crimson Hall of Icecrown Citadel. She is protected by Keleseth, Taldaram, and Valanar.
+						<div class="imgslide">
+							<!--for show-->
+							<div class="row">
+								<div class="column"><img class="hover-shadow" onclick="openModal('queenModal');showSlides(1,'queenModal')" src="./img/slides/blood/icon.jpg" style="width: 150px; height: 150px; border-image: url('./img/box.png') 30 round; border-style: solid;border-width: 10px;-webkit-filter: drop-shadow(0px 0px 5px rgb(93, 41, 45)); cursor: pointer"></div>
+							</div>
+							<div class="modal" id="queenModal">
+								<span class="close cursor" onclick="closeModal('queenModal')">&times;</span> <!--actual images-->
+								<div class="modal-content">
+									<div class="mySlides">
+									<div class="numbertext">
+										1 / 5
+									</div><img src="./img/slides/blood/1.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										2 / 5
+									</div><img src="./img/slides/blood/2.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										3 / 5
+									</div><img src="./img/slides/blood/3.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										4 / 5
+									</div><img src="./img/slides/blood/4.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										5 / 5
+									</div><img src="./img/slides/blood/5.jpg" style="width:100%"></div><a class="prev" onclick="plusSlides(-1,'queenModal')">&#10094;</a> <a class="next" onclick="plusSlides(1,'queenModal')">&#10095;</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="dream">
+					<img src="./img/boss/dreamwalker.png" style="width: 820px;height: 820px;margin-left: 266px;position: absolute">
+					<div class="bosstitle">
+						Valithria Dreamwalker
+					</div>
+					<div class="bosstext">
+						Valithria Dreamwalker, a green dragon, is the first boss of the Frostwing Halls wing of the Icecrown Citadel raid. Captured by the Scourge and used in experiments to reproduce the Emerald Nightmare effect.
+						<div class="imgslide">
+							<!--for show-->
+							<div class="row">
+								<div class="column"><img class="hover-shadow" onclick="openModal('dreamwalkerModal');showSlides(1,'dreamwalkerModal')" src="./img/slides/dream/icon.jpg" style="width: 150px; height: 150px; border-image: url('./img/box.png') 30 round; border-style: solid;border-width: 10px;-webkit-filter: drop-shadow(0px 0px 5px rgb(36, 7, 158)); cursor: pointer"></div>
+							</div>
+							<div class="modal" id="dreamwalkerModal">
+								<span class="close cursor" onclick="closeModal('dreamwalkerModal')">&times;</span> <!--actual images-->
+								<div class="modal-content">
+									<div class="mySlides">
+									<div class="numbertext">
+										1 / 4
+									</div><img src="./img/slides/dream/1.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										2 / 4
+									</div><img src="./img/slides/dream/2.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										3 / 4
+									</div><img src="./img/slides/dream/3.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										4 / 4
+									</div><img src="./img/slides/dream/4.jpg" style="width:100%"></div><a class="prev" onclick="plusSlides(-1,'dreamwalkerModal')">&#10094;</a> <a class="next" onclick="plusSlides(1,'dreamwalkerModal')">&#10095;</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="sindra">
+					<img src="./img/boss/sindragosa.png" style="width: 820px;height: 820px;margin-left: 266px;position: absolute; margin-top: -75px;">
+					<div class="bosstitle">
+						Sindragosa
+					</div>
+					<div class="bosstext">
+						Sindragosa, formerly the prime consort of Malygos up until her death during the War of the Ancients, was a mighty frost wyrm raised by the Lich King himself to serve as the queen of the Frostbrood.
+						<div class="imgslide">
+							<!--for show-->
+							<div class="row">
+								<div class="column"><img class="hover-shadow" onclick="openModal('sindragosaModal');showSlides(1,'sindragosaModal')" src="./img/slides/sindra/icon.jpg" style="width: 150px; height: 150px; border-image: url('./img/box.png') 30 round; border-style: solid;border-width: 10px;-webkit-filter: drop-shadow(0px 0px 5px rgb(1, 122, 161)); cursor: pointer"></div>
+							</div>
+							<div class="modal" id="sindragosaModal">
+								<span class="close cursor" onclick="closeModal('sindragosaModal')">&times;</span> <!--actual images-->
+								<div class="modal-content">
+									<div class="mySlides">
+									<div class="numbertext">
+										1 / 6
+									</div><img src="./img/slides/sindra/1.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										2 / 6
+									</div><img src="./img/slides/sindra/2.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										3 / 6
+									</div><img src="./img/slides/sindra/3.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										4 / 6
+									</div><img src="./img/slides/sindra/4.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										5 / 6
+									</div><img src="./img/slides/sindra/5.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										6 / 6
+									</div><img src="./img/slides/sindra/6.jpg" style="width:100%"></div><a class="prev" onclick="plusSlides(-1,'sindragosaModal')">&#10094;</a> <a class="next" onclick="plusSlides(1,'sindragosaModal')">&#10095;</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="LK">
+					<img src="./img/boss/arthas.png" style="width: 820px;height: 820px;margin-left: 266px;position: absolute; margin-top: -52px;">
+					<div class="bosstitle">
+						The Lich King
+					</div>
+					<div class="bosstext">
+						Kil'jaeden the Deceiver created the Lich King from the spirit of the orc shaman Ner'zhul to raise an undead army to weaken Azeroth in preperation of the Burning Legion's invasion. Initially trapped within the Frozen Throne with Frostmourne, the Lich King eventually betrayed Kil'jaeden and merged with the human Arthas Menethil.
+						<div class="imgslide">
+							<!--for show-->
+							<div class="row">
+								<div class="column"><img class="hover-shadow" onclick="openModal('lichModal');showSlides(1,'lichModal')" src="./img/slides/lk/icon.jpg" style="width: 150px; height: 150px; border-image: url('./img/box.png') 30 round; border-style: solid;border-width: 10px;-webkit-filter: drop-shadow(0px 0px 5px rgb(1, 122, 161)); cursor: pointer"></div>
+							</div>
+							<div class="modal" id="lichModal">
+								<span class="close cursor" onclick="closeModal('lichModal')">&times;</span> <!--actual images-->
+								<div class="modal-content">
+									<div class="mySlides">
+									<div class="numbertext">
+										1 / 6
+									</div><img src="./img/slides/lk/1.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										2 / 6
+									</div><img src="./img/slides/lk/2.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										3 / 6
+									</div><img src="./img/slides/lk/3.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										4 / 6
+									</div><img src="./img/slides/lk/4.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										5 / 6
+									</div><img src="./img/slides/lk/5.jpg" style="width:100%"></div>
+									<div class="mySlides">
+									<div class="numbertext">
+										6 / 6
+									</div><img src="./img/slides/lk/6.jpg" style="width:100%"></div><a class="prev" onclick="plusSlides(-1,'lichModal')">&#10094;</a> <a class="next" onclick="plusSlides(1,'lichModal')">&#10095;</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="divider"></div>
+		<div class="bottom"></div>
+		<div class="promo">
+			<div class="box">
+				<a class="buy" href="http://eu.blizzard.com/en-gb/">BUY NOW</a> <button class="game" style="background: url('./img/button2.png') no-repeat; background-size: cover; background-position: center; border-style: none; -webkit-filter: drop-shadow(0px 0px 20px rgba(0, 231, 255, 0.8)); cursor: pointer"></button>
+			</div>
+			<div id="features">
+				Features
+			</div>
+			<ul class="features">
+				<li>First ever hero class</li>
+				<li>New Battlegrounds</li>
+				<li>New Tier armors</li>
+				<li>Improved character models</li>
+				<li>New raids and dungeons</li>
+				<li>New mounts</li>
+				<li>New continent</li>
+				<li>Level 80 cap</li>
+				<li>Level 80 character</li>
+			</ul>
+		</div>
+		<div class="level"><img class="achievement" src="./img/80.png"> <img class="dance" src="./img/dance.gif"></div>
+		<div class="logoarea"><img class="logo" src="./img/logo.jpg"></div>
+		<footer>
+		<a href="">Terms</a> | <a href="">Conditions</a> | <a href="">Legal</a> | <a href="">Contact</a>
+		<br>
+		©2017 BLIZZARD ENTERTAINMENT, INC. ALL RIGHTS RESERVED.
+		</footer>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script> 
+	<script src="js/main.js">
+	</script>
+</body>
+</html>

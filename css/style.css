@@ -1,0 +1,1031 @@
+  @font-face {
+    font-family: 'lifecraft';
+    src: url(../css/fonts/lifecraft.ttf);
+    font-family: 'FOLKARD';
+    src: url(../css/fonts/FOLKARD.ttf);
+    font-family: 'MORPHEUS';
+    src: url(fonts/MORPHEUS.ttf);
+  }
+  /*gloweffects*/
+  
+  footer {
+    background-color: black;
+    height: 700px;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+  
+  @keyframes neon2 {
+    from {
+      -webkit-filter: drop-shadow(0px 0px 10px rgba(0, 231, 255, 0.4));
+    }
+    to {
+      -webkit-filter: drop-shadow(0px 0px 10px rgba(0, 231, 255, 0.9));
+    }
+  }
+  
+  @keyframes neon3 {
+    from {
+      -webkit-filter: drop-shadow(0px 0px 20px rgba(0, 231, 255, 0.4));
+    }
+    to {
+      -webkit-filter: drop-shadow(0px 0px 30px rgba(0, 231, 255, 0.9));
+    }
+  }
+  
+  br {
+    height: 200px;
+  }
+  
+  body {
+    background-image: url(../img/bg-mid02.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+        background-color: #040b13;
+  }
+
+.logoo {
+    width: 34%;
+    margin-top: 76px;
+    margin-left: 89px;
+    -webkit-filter: drop-shadow(0px 0px 34px rgba(0, 000, 000, 0.8));
+}
+
+  #container {
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+        box-shadow: 0 8px 8px 4px rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+  }
+  
+  h1 {
+    font-family: 'MORPHEUS';
+    margin: 90px auto;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#fbf600, #f5de0e, #ddbe12, #efa517, #b84c43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    width: 700px;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 auto;
+    text-shadow: 3px 1px 1px black;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 684px;
+    background-image: url(../img/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(0, 000, 000, 0.8));
+
+  }
+  
+  .nav {
+    width: 1024px;
+    height: 214px;
+    background-image: url(../img/nav-bar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 586px auto;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .runes {
+    vertical-align: text-top;
+    width: 965px;
+    display: flex;
+    justify-content: space-around;
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(0, 231, 255, 0.8));
+  }
+  
+  .rune1 {
+    outline: none;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+  }
+  
+  .tooltiptextnav {
+    margin-left: 10px;
+    cursor: pointer;
+    align-self: center;
+    text-shadow: 1px 1px 5px #555 inset;
+    font-family: 'Josefin Sans';
+    color: transparent;
+    text-shadow: 0px 0px 0px rgb(255, 255, 255);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+  }
+  
+  .navtooltip:hover .tooltiptextnav {
+    visibility: visible;
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(0, 231, 255, 0.8));
+    text-shadow: none;
+    color: #ffffff;
+  }
+  
+  .navtooltip {
+    position: relative;
+    display: inline-flex;
+    font-family: 'Josefin Sans';
+    align-items: center;
+    width: 170px;
+  }
+  /* introduction*/
+  
+  .introduction {
+    text-align: center;
+    display: block;
+    height: 300px;
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    height: 870px;
+    width: 1024px;
+    background-image: url('../img/Spire.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .trailers {
+    height: 500px;
+    width: 100%;
+  }
+  
+  .play {
+    position: absolute;
+    height: 15%;
+    margin-left: 165px;
+    margin-top: 200px;
+    -webkit-filter: drop-shadow(0px 0px 6px #000000);
+  }
+  
+  video {
+    cursor: pointer;
+    width: 465px;
+    height: 325px;
+    margin: 90px auto;
+    object-fit: fill;
+  }
+  /* divider*/
+  
+  .divider {
+    background-image: url('../img/bar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 28px;
+    position: relative;
+  }
+  /* map*/
+  
+  .map {
+    height: 683px;
+    width: 100%;
+    background-image: url(../img/map.jpg);
+    background-size: contain;
+    margin-top: 46px;
+  }
+  
+  .locations {
+    height: 700px;
+    margin-top: -46px;
+    cursor: pointer;
+  }
+  
+  .areas {
+    height: 560px;
+    width: 1024px;
+    background-image: none;
+  }
+  
+  .scroll {
+    width: 184px;
+    height: 560px;
+    position: relative;
+    background-image: url(../img/scroll.png);
+    float: right;
+    margin-right: -184px;
+  }
+  
+  .quest {
+    width: 25%;
+    margin-top: 29px;
+    margin-left: 70px;
+    display: block;
+  }
+  
+  .explaination {
+    font-family: 'Josefin sans';
+    text-align: center;
+    margin-left: 47px;
+    margin-top: 26px;
+    width: 100px;
+    font-size: 13px;
+    position: relative;
+  }
+  /*sholozarbasin*/
+  
+  .basinarea {
+    background-image: url('../img/areas/sholozarbasin.jpg');
+    background-size: cover;
+    height: 560px;
+    width: 840px;
+    position: absolute;
+  }
+  /*boreanTundra*/
+  
+  .tundraarea {
+    background-image: url('../img/areas/boreantundra.jpg');
+    background-size: cover;
+    height: 560px;
+    width: 840px;
+    position: absolute;
+  }
+  /*icecrown*/
+  
+  .icecrownarea {
+    background-image: url('../img/areas/icecrown.jpg');
+    background-size: cover;
+    height: 560px;
+    width: 840px;
+    position: absolute;
+  }
+  /*stormpeaks*/
+  
+  .stormpeaksarea {
+    background-image: url('../img/areas/stormpeaks.jpg');
+    background-size: cover;
+    height: 560px;
+    width: 840px;
+    position: absolute;
+  }
+  /*crystalsongforest*/
+  
+  .crystalarea {
+    background-image: url('../img/areas/crystal.jpg');
+    background-size: cover;
+    height: 560px;
+    width: 840px;
+    position: absolute;
+  }
+  /*zuldrak*/
+  
+  .zuldrakarea {
+    background-image: url('../img/areas/zuldrak.jpg');
+    background-size: cover;
+    height: 560px;
+    width: 840px;
+    position: absolute;
+  }
+  /*wintergrasp*/
+  
+  .wintergrasparea {
+    background-image: url('../img/areas/wintergrasp.jpg');
+    background-size: cover;
+    height: 560px;
+    width: 840px;
+    position: absolute;
+  }
+  /*grizzlyhills*/
+  
+  .grizzlyarea {
+    background-image: url('../img/areas/grizzly.jpg');
+    background-size: cover;
+    height: 560px;
+    width: 840px;
+    position: absolute;
+  }
+  /*howlingfjord*/
+  
+  .howlingfjordarea {
+    background-image: url('../img/areas/howling.jpg');
+    background-size: cover;
+    height: 560px;
+    width: 840px;
+    position: absolute;
+  }
+  /*dragonblight*/
+  
+  .dragonblightarea {
+    background-image: url('../img/areas/dragonblight.jpg');
+    background-size: cover;
+    height: 560px;
+    width: 840px;
+    position: absolute;
+  }
+  /* Slideshow*/
+  
+  .row>.column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  /* The Modal (background) */
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  /* Modal Content */
+  
+  .modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  /* The Close Button */
+  
+  .close {
+    color: white;
+    position: absolute;
+    top: -25px;
+    right: 25px;
+    font-size: 120px;
+    font-weight: bold;
+  }
+  
+  .close:hover, .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  /* Next & previous buttons */
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    display: flex;
+  }
+  /* Position the "next button" to the right */
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  /* Number text (1/3 etc) */
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active, .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s border
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  }
+  /* deathknight*/
+  
+  .dkintro {
+    height: 635px;
+    width: 1024px;
+    background-color: black;
+    margin: 0 auto;
+  }
+  
+  .dksubtitle {
+    font-family: 'Josefin sans';
+    font-size: 20px;
+    width: 454px;
+    text-align: center;
+    color: white;
+    margin-left: 50px;
+    padding-top: 10px;
+    text-transform: uppercase;
+  }
+  
+  .dktitle {
+    font-family: 'MORPHEUS';
+    font-size: 50px;
+    width: 555px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    float: right;
+    padding-right: 30px;
+    padding-top: 215px;
+    text-shadow: 0px 0px 75px #3be7f9;
+  }
+  
+  .dkpic {
+    background-image: url(../img/dk.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 750px;
+    height: 755px;
+    position: relative;
+    margin-left: 15px;
+  }
+  
+  .button {
+    float: right;
+    /* position: relative; */
+    margin-top: -257px;
+    width: 25%;
+    margin-right: 185px;
+    -webkit-filter: drop-shadow(0px 0px 6px #00BCD4);
+  }
+  
+  .spec {
+    display: inline-block;
+    color: white;
+    margin-left: 236px;
+    margin-top: -25px;
+    position: absolute;
+    font-size: 29px;
+    text-transform: uppercase;
+    font-family: 'MORPHEUS';
+    text-shadow: 0px 0px 75px #3be7f9;
+  }
+  
+  .dk {
+    height: 700px;
+    width: 1024px;
+    background-color: black;
+    background-image: url('../img/ebonhold.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .classoverview {
+    height: 100px;
+    width: 175px;
+    margin-top: 40px;
+    padding: 174px;
+    color: white;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    margin-right: 302px;
+    float: right;
+    text-align: center;
+  }
+  
+  .specoverviewblood {
+    width: 165px;
+    display: inline-block;
+    padding-left: 365px;
+    padding-top: 200px;
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    -webkit-filter: drop-shadow(0px 0px 80px rgba(255, 0, 0, 0.80));
+  }
+  
+  .specoverviewfrost {
+    width: 183px;
+    display: inline-block;
+    padding-left: 360px;
+    padding-top: 223px;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    -webkit-filter: drop-shadow(0px 0px 80px rgba(0, 231, 255, 0.8));
+  }
+  
+  .specoverviewunholy {
+    width: 176px;
+    display: inline-block;
+    padding-left: 360px;
+    padding-top: 221px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Josefin Sans';
+    -webkit-filter: drop-shadow(0px 0px 80px rgba(0, 255, 0, 0.8));
+  }
+  /*dk buttons*/
+  
+  .icons {
+    padding-left: 85px;
+    padding-top: 45px;
+    outline: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 620px;
+  }
+  
+  .icons>div>input {
+    outline: none;
+  }
+  /*talents*/
+  
+  .blood {
+    -webkit-filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0.80));
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+  
+  .blood:hover {
+    -webkit-filter: drop-shadow(0px 0px 40px rgba(255, 0, 0, 0.80));
+  }
+  
+  .bloodselected {
+    -webkit-filter: drop-shadow(0px 0px 8px rgba(255, 0, 0, 0.80));
+  }
+  
+  .frost {
+    -webkit-filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0.80));
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+  
+  .frost:hover {
+    -webkit-filter: drop-shadow(0px 0px 40px rgba(0, 231, 255, 0.8));
+  }
+  
+  .frostselected {
+    -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 255, 0.8));
+  }
+  
+  .unholy {
+    -webkit-filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0.80));
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+  
+  .unholy:hover {
+    -webkit-filter: drop-shadow(0px 0px 40px rgba(0, 255, 0, 0.8));
+  }
+  
+  .unholyselected {
+    -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 255, 0, 0.8));
+  }
+  
+  .talents {
+    float: right;
+    */ display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    position: absolute;
+    padding-right: 90px;
+  }
+  
+  .group1 {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .group2 {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .group3 {
+    display: block;
+    margin-bottom: 20px;
+  }
+  /* talenttooltips*/
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    font-family: 'Josefin Sans';
+  }
+  
+  .tooltip .tooltiptextfrost {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Josefin Sans';
+  }
+  
+  .tooltip .tooltiptextblood {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Josefin Sans';
+  }
+  
+  .tooltip .tooltiptextunholy {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Josefin Sans';
+  }
+  
+  .tooltip:hover .tooltiptextfrost {
+    visibility: visible;
+    -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 255, 0.8));
+  }
+  
+  .tooltip:hover .tooltiptextunholy {
+    visibility: visible;
+    -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 255, 0, 0.8));
+  }
+  
+  .tooltip:hover .tooltiptextblood {
+    visibility: visible;
+    -webkit-filter: drop-shadow(0px 0px 8px rgba(255, 0, 0, 0.80));
+  }
+  
+  .gnome {
+    width: 410px;
+    height: 640px;
+    float: right;
+    -webkit-filter: drop-shadow(0px 0px 30px rgba(0, 231, 255, 0.8));
+    background-repeat: no-repeat;
+    background-image: url(../img/gnome.png);
+    background-position: bottom;
+    background-size: contain;
+  }
+  /* shadowmourne*/
+  
+  .shadowtitle {
+    width: 410px;
+    margin-left: -99px;
+    font-family: 'MORPHEUS';
+    margin-bottom: 30px;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#ffe800, #FFEB3B, #ddcb2e, #FF9800, #b84c43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .shadowmourneindex {
+    text-align: center;
+    float: right;
+    color: white;
+    width: 210px;
+    height: 500px;
+    margin-top: 172px;
+    margin-right: 155px;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+  }
+  
+  #shadowbutton {
+    margin-top: 30px;
+    margin-left: -11px;
+  }
+  
+  .frostmourne {
+    height: 785px;
+    width: 1024px;
+    background-color: black;
+    outline: none;
+    background-image: url(../img/halls2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .shadow {
+    margin-left: 105px;
+    margin-top: 48px;
+    animation: float 6s ease-in-out infinite, neon3 3s ease-in-out infinite alternate;
+    ;
+    position: relative;
+  }
+  
+  .altar {
+    background-image: url(../img/test.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 712px;
+    width: 1024px;
+    margin-top: -638px;
+    margin-left: 8px;
+    z-index: 1;
+    -webkit-filter: drop-shadow(0px 0px 70px rgba(0, 231, 255, 0.8));
+  }
+  
+  .circle {
+    width: 92%;
+    display: inline-flex;
+    margin-top: -31px;
+    animation: neon3 1.5s ease-in-out infinite alternate;
+    margin-left: -183px;
+    z-index: -1;
+    transform: rotate(-1deg);
+  }
+  /*bosses*/
+  
+  .bossiconsbar {
+    height: 300px;
+    width: 1024px;
+    background-color: black;
+  }
+  
+  .villians {
+    text-align: center;
+    font-family: 'MORPHEUS';
+    color: white;
+    font-size: 50px;
+    padding-top: 15px;
+    background: -webkit-linear-gradient(#ffe800, #FFEB3B, #FFEB3B, #e3ba17, #b84c43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .exp {
+    color: white;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Josefin Sans';
+    padding-top: 20px;
+    font-size: 18px;
+  }
+  
+  .bossicons {
+    display: inline-block;
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(0, 231, 255, 0.8));
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    outline: none;
+  }
+  
+  .bosses {
+    height: 700px;
+    width: 1024px;
+    background-color: black;
+  }
+  
+  .icc {
+    width: 1024px;
+    height: 700px;
+    background-image: url(../img/iccback.jpg);
+    background-size: cover;
+  }
+  
+  .bosstitle {
+    font-size: 40px;
+    font-family: 'MORPHEUS';
+    color: white;
+    padding-top: 100px;
+    margin-left: 125px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 240px;
+  }
+  
+  .bosstext {
+    width: 240px;
+    height: 458px;
+    color: white;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    margin-left: 125px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .imgslide {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 220px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /*promo*/
+  
+  .bottom {
+    background-color: black;
+    height: 90px;
+  }
+  
+  .promo {
+    height: 1030px;
+    width: 100%;
+    background-color: black;
+  }
+  
+  .box {
+    height: 700px;
+    width: 800px;
+    background-image: url('../img/box.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 10px black inset;
+    background-color: black;
+  }
+  
+  .game {
+    float: right;
+    margin-top: 230px;
+    width: 40%;
+    height: 13%;
+    margin-right: -65px;
+  }
+  
+  #features {
+    color: white;
+    font-family: 'Josefin sans';
+    text-transform: uppercase;
+    margin-left: 100px;
+    font-size: 30px;
+    margin-top: -75px;
+    margin-bottom: 35px;
+    text-shadow: 0px 0px 30px #03A9F4;
+  }
+  
+  .features {
+    color: white;
+    font-family: 'Josefin sans';
+    text-transform: uppercase;
+    margin-left: 60px;
+    text-shadow: 0px 0px 30px #03A9F4;
+  }
+  
+  li {
+    margin: 15px;
+  }
+  /*level80*/
+  
+  .level {
+    width: 55%;
+    height: 477px;
+    background-color: black;
+    float: right;
+    display: inline-block;
+    margin-top: -409px;
+  }
+  
+  .dance {
+    margin: 127px auto;
+    display: flex;
+  }
+  
+  .achievement {
+    display: flex;
+    margin: -95px auto;
+    width: 68%;
+    padding-top: 71px;
+  }
+  
+  button {
+    color: white;
+    font-family: 'Josefin sans';
+    text-transform: uppercase;
+    font-size: 30px;
+    -webkit-filter: text-shadow(0px 0px 70px rgba(0, 231, 255, 0.8));
+  }
+  
+  .logoarea {
+    height: 60px;
+    width: 1024px;
+    background-color: black;
+  }
+  
+  .logo {
+    display: flex;
+    margin: 0 auto;
+    width: 15%;
+    margin-left: 425px;
+  }
+  
+  footer {
+    height: 50px;
+    padding-top: 50px;
+    width: 1024px;
+    margin: 0 auto;
+    color: #b2b2b2;
+    text-align: center;
+    font-size: 10px;
+    font-family: Josefin sans;
+    line-height: 20px;
+  }
+
+  footer>a{
+    text-decoration: none;
+    color: #b2b2b2;
+  }
+  
+  .buy {
+    color: white;
+    float: right;
+    position: absolute;
+    z-index: 1;
+    margin-top: 250px;
+    margin-left: 620px;
+    font-size: 52px;
+    background: -webkit-linear-gradient(#FF5722, #FFC107, #FFEB3B, #e3ba17, #b84c43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'lifecraft';
+    cursor: pointer;
+  }
